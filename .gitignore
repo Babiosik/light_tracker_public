@@ -1,0 +1,10 @@
+# Дані WiFi для скетчу
+esp12f_get/secrets.h
+
+# Сторонній репозиторій, не частина проєкту
+Arduino_MCP_Server/
+
+# Arduino IDE / ОС
+build/
+.DS_Store
+Thumbs.db

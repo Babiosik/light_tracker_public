@@ -1,0 +1,22 @@
+{
+  "name": "light-tracker-server",
+  "version": "1.0.0",
+  "description": "Сервер Light Tracker: приймає пінги від ESP-пристроїв і сповіщає в Telegram про світло",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node --env-file-if-exists=.env dist/server.js",
+    "dev": "tsc && npm start"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}
